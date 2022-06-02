@@ -1,0 +1,60 @@
+
+<h2>Table one data </h2>
+
+<div>
+  <table class="container">
+    <thead>
+      <tr>
+        <th>FIRST NAME</th>
+        <th>LAST NAME</th>
+        <th>ID</th>
+        <th>EMAIL</th>
+        <th>AVATAR</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr  *ngFor="let item of result">
+        <td>{{item.first_name}}</td>
+        <td>{{item.last_name}}</td>
+        <td>{{item.id}}</td>
+        <td>{{item.email}}</td>
+        <td> <img style="height: 35px;" src={{item.avatar}}></td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<h2>Table two data </h2>
+
+<div>
+  <table class="container">
+    <thead>
+      <tr>
+        <th>FIRST NAME</th>
+        <th>LAST NAME</th>
+        <th>ID</th>
+        <th>EMAIL</th>
+        <th>AVATAR</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr  *ngFor="let item of result2">
+        <td>{{item.first_name}}</td>
+        <td>{{item.last_name}}</td>
+        <td>{{item.id}}</td>
+        <td>{{item.email}}</td>
+        <td> <img style="height: 35px;" src={{item.avatar}}></td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+
